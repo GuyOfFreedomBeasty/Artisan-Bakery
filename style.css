@@ -1,0 +1,194 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header{
+    color: white;
+    background-image: url(Images/Hero.jpg);
+    background-size: 100%;
+    background-position: center;
+
+    height: 350px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header nav{
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    
+    height: 120px;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+header nav .icon{
+    text-indent: -99999999999px;
+    background-image: url(Images/ArtisanLogo.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+
+    position: relative;
+    top: -26px;
+
+    width: 1000px;
+    height: 80px;
+}
+
+header nav ul{
+    padding: 0;
+    margin-top: 45px;
+
+    list-style-type: none;
+    display: flex;
+}
+
+header nav li{
+    margin-right: 15px;
+}
+
+header nav li h3{
+    margin: 0;
+}
+
+header nav li:last-child{
+    margin-right: 30px;
+}
+
+header nav li:first-child{
+    margin-left: 30px;
+}
+
+.features{
+    display: flex;
+}
+
+.features p{
+    font-size: 105%;
+    font-weight: 600;
+}
+
+.features div{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    text-align: center;
+}
+
+.features div img{
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: gray 2px 1px 2px;
+    border: 2px solid rgb(198, 198, 198);
+
+    height: 325px;
+    width: 325px;
+}
+
+.other p{
+    font-weight: 500;
+}
+
+.other h2{
+    margin-left: 10px;
+}
+
+.other h1{
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 250%;
+    color: rgb(27, 27, 27);
+
+    background-color: lightgray;
+    color: rgb(44, 44, 44);
+}
+
+.description{
+    background-image: url(Images/Restaurant\ Picture.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 700px;
+}
+
+.description p{
+    display: inline-block;
+    width: 1250px;
+    margin-left: 50px;
+    
+    background-color: rgba(255, 255, 255, .85);
+    border-radius: 2px;
+    
+    font-size: 125%;
+}
+
+.mobile{
+    background-color: lightgray;
+}
+
+.mobile div{
+    margin-left: 50px;
+}
+
+.mobile p{
+    margin-left: 50px;
+}
+
+.social-media{
+    background-color: lightgray;
+}
+
+.social-media div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    
+    align-items: center;
+}
+
+.social-media div img{
+    width: 50px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.locations{
+    margin-left: 20px;
+    background-color: lightgray;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+}
+
+.reviews img{
+    height: 70px;
+    display: inline-block;
+}
+
+.reviews p{
+    display: inline-block;
+    margin-left: 700px;
+}
+
+.reviews h3{
+    font-size: 150%;
+    margin-left: 10px;
+}
+
+footer{
+    background: rgb(45, 45, 45);
+    color: gray;
+    
+    padding: 20px 25px;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+}
